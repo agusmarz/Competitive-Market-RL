@@ -6,5 +6,5 @@ venv/
 
 # training artifacts, regenerate with scripts/
 results/*.json
-results/*.png
+
 !results/.gitkeep
