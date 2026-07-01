@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+*.egg-info/
+.venv/
+venv/
+
+# training artifacts, regenerate with scripts/
+results/*.json
+results/*.png
+!results/.gitkeep

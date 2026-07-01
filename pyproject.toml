@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "market-rl"
+version = "0.1.0"
+description = "Multi-agent PPO for competitive vs cooperative pricing (Calvano et al. extension)"
+requires-python = ">=3.10"
+dependencies = [
+    "numpy",
+    "scipy",
+    "gymnasium",
+    "torch",
+    "matplotlib",
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
